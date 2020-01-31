@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Transitions</string>
+    <string name="first_hint">Enter anything</string>
+    <string name="hint_first_button">Next</string>
+    <string name="second_hint">Enter another thing</string>
+    <string name="hint_previous_button">Previous</string>
+    <string name="hint_next_button">Next</string>
+    <string name="label_first_entry">First Entry:</string>
+    <string name="label_second_entry">Second Entry:</string>
+    <string name="placeholder_text">Dummy Data Here!!!</string>
+    <string name="text_startover_button">Start Over</string>
 </resources>

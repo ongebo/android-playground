@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <transition
+        android:fromScene="@layout/scene_one"
+        android:toScene="@layout/scene_two"
+        android:transition="@transition/first_transition" />
+    <transition
+        android:fromScene="@layout/scene_two"
+        android:toScene="@layout/scene_one"
+        android:transition="@transition/first_transition" />
+    <transition
+        android:fromScene="@layout/scene_two"
+        android:toScene="@layout/scene_three"
+        android:transition="@transition/second_transition" />
+    <transition
+        android:fromScene="@layout/scene_three"
+        android:toScene="@layout/scene_one"
+        android:transition="@transition/first_transition" />
+</transitionManager>
